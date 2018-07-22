@@ -1,7 +1,7 @@
 # springcloud-eureka-server
 
 ## 工程概述
-springcloud-eureka-servery这个工程是基于Eureka Server实现的服务注册中心功能。
+`springcloud-eureka-servery`这个工程是基于`Eureka Server`实现的单机环境下服务注册中心功能。
 
 ## 实现步骤
 ### 引入Eureka Server依赖

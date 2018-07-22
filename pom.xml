@@ -46,7 +46,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
+
 		</plugins>
 
 	</build>
@@ -54,6 +62,7 @@
 	<modules>
 		<module>springcloud-eureka-server</module>
 		<module>springcloud-eureka-client</module>
+		<module>springcloud-eureka-server-peer</module>
 	</modules>
 
 </project>

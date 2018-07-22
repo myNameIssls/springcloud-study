@@ -1,6 +1,10 @@
 spring:
   application:
-    name: eureka-server
+    name: eureka-server-peer
+eureka:
+  client:
+    register-with-eureka: false # 表示不向注册中心注册
+    fetch-registry: false # 由于注册中心的职责就是维护服务实例，所以它不需要去检索服务
 
 ---
 spring:
@@ -10,14 +14,13 @@ server:
 eureka:
   instance:
     hostname: peer1
-    
   client:
     service-url:
       defaultZone: http://peer2:8762/eureka/
 
 ---
 spring:
-  profiles: peer1
+  profiles: peer2
 server:
   port: 8762
 eureka:
@@ -26,4 +29,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer1:8761/eureka/
-      
+
+
+
+
+
+
+
+   
