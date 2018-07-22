@@ -43,6 +43,12 @@ public class EurekaServerApplication {
     }
 }
 ```
+博客地址：
+[SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061)
+[基于Eureka Server实现服务注册](https://blog.csdn.net/myNameIssls/article/details/81154755)
+
+参考链接:
+[http://cloud.spring.io/spring-cloud-static/Finchley.RELEASE/single/spring-cloud.html#spring-cloud-eureka-server-peer-awareness](http://cloud.spring.io/spring-cloud-static/Finchley.RELEASE/single/spring-cloud.html#spring-cloud-eureka-server-peer-awareness)
 
 
 

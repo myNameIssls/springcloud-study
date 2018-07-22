@@ -36,6 +36,11 @@
 
 ## 项目模块健介绍
 [springcloud-eureka-server](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-eureka-server)
+[springcloud-eureka-server-peer](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-eureka-server-peer)
+
+## springcloud-study 博客地址
+[SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061)
+
 
 
 
