@@ -1,0 +1,30 @@
+server:
+  port: 8000
+  
+spring:
+  application:
+    # 用于指定Eureka Server中application的名称
+    name: microservice-service-provider
+eureka:
+  client:
+    service-url:
+      # defaultZone: http://localhost:8761/eureka/
+      # Eureka Server高可用配置，注意多个节点采用英文逗号连接，且不允许出现其它的特殊字符（例如：空格符）
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+  instance:
+    # 用于指定Eureka Server中的服务状态名称
+    instance-id: microservice-service-provider-8000
+    # 用于标记选中Eureka Server中的服务状态名称时，
+    # 可以从浏览器左下角看到IP地址
+    # 默认是false
+    prefer-ip-address: true
+
+# info 模块用来显示app相关信息，如果不配置info模块，那么点击Eureka Server中的状态链接时，会出现访问异常
+# 使用info模块需要在pom.xml中添加spring-boot-starter-actuator依赖    
+info: 
+  app:
+    name: microservice-service-provider
+    GitHub: https://github.com/myNameIssls/springcloud-study
+    Blog: https://blog.csdn.net/column/details/24459.html
+
+ 
