@@ -125,13 +125,14 @@ public class ServiceProviderController {
 }
 
 ```
+注意事项：
+启动本示例之前，需要提前启动`Eureka Server`高可用工程，即`springcloud-eureka-server-peer`。
+
 
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[基于Eureka Server实现服务注册高可用](https://blog.csdn.net/myNameIssls/article/details/81157345)
+[基于SpringCloud完成服务提供者示例](https://blog.csdn.net/myNameIssls/article/details/81193557)
 
-参考链接:  </br>
-[http://cloud.spring.io/spring-cloud-static/Finchley.RELEASE/single/spring-cloud.html#spring-cloud-eureka-server-peer-awareness](http://cloud.spring.io/spring-cloud-static/Finchley.RELEASE/single/spring-cloud.html#spring-cloud-eureka-server-peer-awareness)
 
 
 
