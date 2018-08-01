@@ -1,0 +1,39 @@
+# 配置springcloud-service-provider-high-available公共部分
+spring:
+  application:
+    # 用于指定Eureka Server中application的名称
+    name: microservice-service-provider
+
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+  instance:
+    prefer-ip-address: true
+   
+info: 
+  app:
+    name: microservice-service-provider
+    GitHub: https://github.com/myNameIssls/springcloud-study
+    Blog: https://blog.csdn.net/column/details/24459.html
+    
+---
+spring:
+  profiles: peer1
+server:
+  port: 8000 # 第一个节点端口
+
+eureka:
+  instance:
+    instance-id: microservice-service-provider-8000
+
+---
+spring:
+  profiles: peer2
+server:
+  port: 8001 # 第二个节点端口
+eureka:
+  instance:
+    instance-id: microservice-service-provider-8001
+
+ 

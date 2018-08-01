@@ -72,6 +72,8 @@
 		<module>springcloud-eureka-client</module>
 		<module>springcloud-eureka-server-peer</module>
     <module>springcloud-service-provider</module>
-  </modules>
+    <module>springcloud-service-consumer</module>
+    <module>springcloud-service-provider-high-available</module>
+	</modules>
 
 </project>
