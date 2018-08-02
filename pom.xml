@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.tyrone.springcloud</groupId>
@@ -24,7 +26,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
@@ -32,8 +34,8 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			
-			
+
+
 		</dependencies>
 
 	</dependencyManagement>
@@ -71,9 +73,9 @@
 		<module>springcloud-eureka-server</module>
 		<module>springcloud-eureka-client</module>
 		<module>springcloud-eureka-server-peer</module>
-    <module>springcloud-service-provider</module>
-    <module>springcloud-service-consumer</module>
-    <module>springcloud-service-provider-high-available</module>
+		<module>springcloud-service-provider</module>
+		<module>springcloud-service-consumer</module>
+		<module>springcloud-service-provider-high-available</module>
 	</modules>
 
 </project>

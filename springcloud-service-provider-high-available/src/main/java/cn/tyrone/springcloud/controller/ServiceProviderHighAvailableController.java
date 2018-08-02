@@ -2,6 +2,8 @@ package cn.tyrone.springcloud.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -26,7 +28,6 @@ public class ServiceProviderHighAvailableController {
 	public Object discovery() {
 
 		List<ServiceInstance> instances = discoveryClient.getInstances("MICROSERVICE-SERVICE-PROVIDER");
-
 		// for (ServiceInstance serviceInstance : instances) {
 		// System.out.println(serviceInstance.getHost());
 		// }
@@ -34,4 +35,11 @@ public class ServiceProviderHighAvailableController {
 
 		return instances;
 	}
+
+	// 获取请求URL
+	@RequestMapping("/provider/request/info")
+	public String requestInfo(HttpServletRequest request) {
+		return request.getRequestURL().toString();
+	}
+
 }
