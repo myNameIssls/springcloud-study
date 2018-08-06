@@ -134,7 +134,8 @@ public class BeanConfig {
 
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[基于SpringCloud完成服务提供者示例](https://blog.csdn.net/myNameIssls/article/details/81193557)
+[基于SpringCloud完成服务提供者示例](https://blog.csdn.net/myNameIssls/article/details/81193557) <br>
+[SpringCloud更改Netflix Ribbon默认的负载均衡策略](https://blog.csdn.net/myNameIssls/article/details/81455599)
 
 参考链接：
 [https://cloud.spring.io/spring-cloud-static/Finchley.SR1/single/spring-cloud.html#spring-cloud-ribbon](https://cloud.spring.io/spring-cloud-static/Finchley.SR1/single/spring-cloud.html#spring-cloud-ribbon)

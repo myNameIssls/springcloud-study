@@ -17,6 +17,9 @@ public class BeanConfig {
 		return new RestTemplate();
 	}
 	
+	/*
+	 * 更改Ribbon默认的负载均衡策略
+	 */
 	@Bean
 	public IRule irule() {
 		// 实现随机的负载均衡策略
