@@ -40,6 +40,7 @@
 [springcloud-service-provider](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-provider) </br>
 [springcloud-service-provider-high-available](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-provider-high-available)
 [springcloud-service-consumer](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-consumer)
+[springcloud-service-consumer-feign](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-consumer-feign)
 
 ## springcloud-study 博客地址 </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061)

@@ -123,8 +123,7 @@ public class ServiceProviderConsumerController {
 
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[基于SpringCloud完成服务提供者示例](https://blog.csdn.net/myNameIssls/article/details/81193557) <br>
-[SpringCloud更改Netflix Ribbon默认的负载均衡策略](https://blog.csdn.net/myNameIssls/article/details/81455599)
+[基于Feign实现服务消费](https://blog.csdn.net/myNameIssls/article/details/81510474) <br>
 
 参考链接：
 [http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi_spring-cloud-feign.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi_spring-cloud-feign.html)
