@@ -16,11 +16,11 @@ public class ServiceProviderHighAvailableController {
 	private DiscoveryClient discoveryClient;
 
 	@RequestMapping("/provider/service1")
-	public String service1() {
+	public String service1(HttpServletRequest request) {
 
-		String str = "这是服务生产者提供的一个服务";
+		String str = "这是服务生产者提供的一个服务啊啊";
 
-		return str;
+		return str + request.getServerPort();
 	}
 
 	// 查看服务相关信息
@@ -39,6 +39,7 @@ public class ServiceProviderHighAvailableController {
 	// 获取请求URL
 	@RequestMapping("/provider/request/info")
 	public String requestInfo(HttpServletRequest request) {
+		
 		return request.getRequestURL().toString();
 	}
 

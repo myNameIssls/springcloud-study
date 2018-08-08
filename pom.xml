@@ -76,6 +76,7 @@
 		<module>springcloud-service-provider</module>
 		<module>springcloud-service-consumer</module>
 		<module>springcloud-service-provider-high-available</module>
+		<module>springcloud-service-consumer-feign</module>
 	</modules>
 
 </project>

@@ -1,0 +1,9 @@
+server:
+  port: 9000 # 指定工程端口号
+
+#eureka: 
+#  client:
+#    register-with-eureka: false
+#    service-url: 
+#      # eureka Server端地址
+#      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
