@@ -42,6 +42,7 @@
 - [springcloud-service-consumer](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-consumer) <br >
 - [springcloud-service-consumer-feign](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-consumer-feign) <br >
 - [springcloud-service-consumer-feign-hystrix](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-service-consumer-feign-hystrix) <br >
+- [springcloud-hystrix-dashboard](https://github.com/myNameIssls/springcloud-study/tree/master/springcloud-hystrix-dashboard) <br >
 
 ## springcloud-study 博客地址 </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061)

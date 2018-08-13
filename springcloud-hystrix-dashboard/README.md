@@ -89,12 +89,12 @@ public class Application {
 
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[服务消费端开启hystrix熔断机制（基于Feign）](https://blog.csdn.net/myNameIssls/article/details/81626878) <br>
+[Hystrix Dashboard监控面板](https://blog.csdn.net/myNameIssls/article/details/81633358) <br>
 
 参考链接：<br >
 [http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__circuit_breaker_hystrix_dashboard.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__circuit_breaker_hystrix_dashboard.html) <br >
 [http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__hystrix_timeouts_and_ribbon_clients.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__hystrix_timeouts_and_ribbon_clients.html) <br >
-[https://blog.csdn.net/yejingtao703/article/details/77683102](https://blog.csdn.net/yejingtao703/article/details/77683102)
+[https://blog.csdn.net/yejingtao703/article/details/77683102](https://blog.csdn.net/yejingtao703/article/details/77683102) <br >
 [https://www.cnblogs.com/chenweida/p/9025589.html](https://www.cnblogs.com/chenweida/p/9025589.html)
 
 
