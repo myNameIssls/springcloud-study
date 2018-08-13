@@ -1,10 +1,10 @@
-package cn.tyrone.springcloud.service.consumer.feign.controller;
+package cn.tyrone.springcloud.service.consumer.feign.hystrix.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.tyrone.springcloud.service.consumer.feign.service.ServiceProviderConsumerFeignService;
+import cn.tyrone.springcloud.service.consumer.feign.hystrix.service.ServiceProviderConsumerFeignService;
 
 /**
  * 服务消费端
@@ -25,7 +25,7 @@ public class ServiceProviderConsumerController {
 	 * @return
 	 */
 	@RequestMapping("/consumer/request/info")
-	public String requestInfo() {
+	public String requestInfo(boolean flag) {
 		return feignService.requestInfo();
 	}
 

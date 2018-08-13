@@ -7,26 +7,23 @@
 		<artifactId>springcloud-study</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<artifactId>springcloud-service-provider-high-available</artifactId>
+	<artifactId>springcloud-service-consumer-feign</artifactId>
 
 	<dependencies>
-
-		<!-- hystrix -->
+		<!-- SpringBoot依赖 -->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<!-- Eureka Client依赖 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
-		<!-- actuator监控信息完善 -->
+		<!-- Feign 依赖 -->
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
 	</dependencies>
