@@ -1,7 +1,7 @@
 # springcloud-service-consumer-feign-hystrix
 
 ## springcloud-service-consumer-feign-hystrix 工程概述
-该工程通过feign实现服务消费者，并开启了hystrix熔断机制确保服务提供者在服务异常的情况下，可以将服务请求转发至相应的服务异常处理方法中，以确保整个服务过程不会被阻塞
+该工程通过feign实现服务消费者，并开启了hystrix熔断机制确保服务提供者在服务异常的情况下，可以将服务请求转发至相应的服务异常处理方法中，以确保整个服务过程不会被阻塞。
 
 ## 实现步骤分析
 ### 引入相关依赖依赖
@@ -163,9 +163,9 @@ public class ServiceProviderConsumerFeignServiceFallbackFactory implements Fallb
 
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[基于Feign实现服务消费](https://blog.csdn.net/myNameIssls/article/details/81510474) <br>
+[服务消费端开启hystrix熔断机制（基于Feign）](https://blog.csdn.net/myNameIssls/article/details/81626878) <br>
 
-参考链接：
+参考链接：<br >
 [http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__circuit_breaker_hystrix_clients.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__circuit_breaker_hystrix_clients.html) <br >
 [http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi_spring-cloud-feign.html#spring-cloud-feign-hystrix](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi_spring-cloud-feign.html#spring-cloud-feign-hystrix)
 
