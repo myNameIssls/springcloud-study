@@ -1,13 +1,11 @@
-package cn.tyrone.springcloud.service.consumer.feign.hystrix;
+package cn.tyrone.springcloud.hystrix.dashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
+@EnableHystrixDashboard // 启动hystrix监控面板
 @SpringBootApplication
-@EnableFeignClients // 启动Feign
-@EnableCircuitBreaker // 启动熔断机制
 public class Application {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(Application.class, args);

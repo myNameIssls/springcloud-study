@@ -78,6 +78,7 @@
 		<module>springcloud-service-provider-high-available</module>
 		<module>springcloud-service-consumer-feign</module>
 		<module>springcloud-service-consumer-feign-hystrix</module>
+		<module>springcloud-hystrix-dashboard</module>
 	</modules>
 
 </project>
