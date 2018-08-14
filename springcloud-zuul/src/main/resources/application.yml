@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: microservice-service-zuul
+
+server:
+  port: 7000
+
+eureka:
+  client:
+    service-url: 
+      # eureka Server端地址
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+ 
+zuul:
+  
+  # 忽略单个服务实例：
+  # ignored-services: microservice-service-provider
+  # "*"表示忽略所有微服务，所有请求均不能通过服务的应用名称来访问
+  # 例如：http://localhost:7000/tyrone/microservice-service-provider/provider/request/info是访问不通的
+  # 如果不声明此属性，上述请求是可以访问成功的
+  ignored-services: "*"
+  # 指定路由前缀,所有请求均需要带此前缀
+  prefix: /tyrone
+  routes:
+    provider: # 相当于服务路由模块名称，如果与service-id相同，那么service-id可以不用声明
+      service-id: microservice-service-provider # 表示微服务的应用名称，需要与Eureka Server中保持一致
+      path: /api/** # 以/api开始的请求均可以映射到service-id代表的微服务应用上
+    
