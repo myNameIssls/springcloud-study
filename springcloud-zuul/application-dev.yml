@@ -1,0 +1,5 @@
+server:
+  port: 1000
+spring:
+  application:
+    name: springcloud-config-server
