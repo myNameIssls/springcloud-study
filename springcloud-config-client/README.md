@@ -63,7 +63,6 @@ public class Application implements CommandLineRunner {
 }
 ```
 
-
 ### 测试
 优先启动配置服务端工程，即`springcloud-config-server`, 其次启动`springcloud-config-client`这个工程。
 观察控制日志输出：
@@ -74,30 +73,14 @@ public class Application implements CommandLineRunner {
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[使用zuul实现服务路由请求分发](https://blog.csdn.net/myNameIssls/article/details/81675242) <br>
+[SpringCloud Config Client 配置中心客户端工程](https://blog.csdn.net/myNameIssls/article/details/81749524) <br>
 
 参考链接：<br >
-[http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__router_and_filter_zuul.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__router_and_filter_zuul.html) <br >
-[https://blog.csdn.net/wqh8522/article/details/79094412](https://blog.csdn.net/wqh8522/article/details/79094412) <br >
-[https://www.cnblogs.com/520playboy/p/7234218.html](https://www.cnblogs.com/520playboy/p/7234218.html)
+[http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__quick_start.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__quick_start.html) <br >
+[http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__spring_cloud_config_client.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__spring_cloud_config_client.html) <br >
+[https://www.cnblogs.com/lfalex0831/p/9206605.html](https://www.cnblogs.com/lfalex0831/p/9206605.html)
 
 
 

@@ -65,12 +65,12 @@ http://localhost:7100/master/application-dev.yml
 
 博客地址： </br>
 [SpringCloud 企业级应用实战](https://blog.csdn.net/mynameissls/article/details/81150061) </br>
-[使用zuul实现服务路由请求分发](https://blog.csdn.net/myNameIssls/article/details/81675242) <br>
+[SpringCloud Config Server 配置中心服务端工程](https://blog.csdn.net/myNameIssls/article/details/81749451) <br>
 
 参考链接：<br >
-[http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__router_and_filter_zuul.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__router_and_filter_zuul.html) <br >
-[https://blog.csdn.net/wqh8522/article/details/79094412](https://blog.csdn.net/wqh8522/article/details/79094412) <br >
-[https://www.cnblogs.com/520playboy/p/7234218.html](https://www.cnblogs.com/520playboy/p/7234218.html)
+[http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__quick_start.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__quick_start.html) <br >
+[http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__spring_cloud_config_server.html](http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi__spring_cloud_config_server.html) <br >
+[https://www.cnblogs.com/lfalex0831/p/9206605.html](https://www.cnblogs.com/lfalex0831/p/9206605.html)
 
 
 
