@@ -1,0 +1,10 @@
+server:
+  port: 7100
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/myNameIssls/springcloud-study # git服务器上配置文件地址

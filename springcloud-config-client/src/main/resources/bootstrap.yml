@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: application   # git服务器上配置文件名称，无后缀
+      profile: dev
+      label: master
+      uri: http://localhost:7100   # config server端地址
