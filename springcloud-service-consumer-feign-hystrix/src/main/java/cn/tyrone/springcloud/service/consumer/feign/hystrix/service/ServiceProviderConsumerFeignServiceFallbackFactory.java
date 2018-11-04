@@ -1,8 +1,8 @@
 package cn.tyrone.springcloud.service.consumer.feign.hystrix.service;
 
+import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
-import feign.hystrix.FallbackFactory;
 
 /**
  * 该类实现FallbackFactory这个接口，并注入需要被hystrix监控的接口ServiceProviderConsumerFeignService，
